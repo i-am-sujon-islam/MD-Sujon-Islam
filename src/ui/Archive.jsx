@@ -3,7 +3,8 @@ import { useRef, useState } from "react";
 import { projectArray } from "../constant";
 import ArchiveCard from "./ArchiveCard";
 import Container from "./Container";
-const Archive = () => {
+const 
+Archive = () => {
   const [showMore, setShowMore] = useState(false);
   const displayedArray = showMore ? projectArray : projectArray.slice(0, 6);
   const projectContainerRef = useRef(null);

@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 const Project = () => {
   return (
     <Container id="project">
-      <SectionTitle title="Some Things I have Build" titleNo="03" />
+      <SectionTitle title="In future I will have build" titleNo="03" />
       <div
         className="mt-10
       "
