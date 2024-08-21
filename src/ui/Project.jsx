@@ -9,16 +9,27 @@ const Project = () => {
   return (
     <Container id="project">
       <SectionTitle title="I have build these" titleNo="03" />
-      <div className="overflow-hidden">
-        <a href="https://a-simple-project-dpi.vercel.app/">
-          <img
-            className="hover:scale-110 duration-300"
-            src={Dpi}
-            alt="DPI Website"
-          />
-        </a>
+      <div className=" mb-3 grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="h-[180px] overflow-hidden">
+          <a href="https://a-simple-project-dpi.vercel.app/">
+            <img
+              className="hover:scale-110 duration-300 my-4"
+              src={Dpi}
+              alt="DPI Website"
+            />
+          </a>
+        </div>
+        <div className="h-[185px] overflow-hidden">
+          <a href="https://a-simple-project-dpi.vercel.app/">
+            <img
+              className="hover:scale-110 duration-300 my-4"
+              src={Dpi}
+              alt="DPI Website"
+            />
+          </a>
+        </div>
       </div>
-      <SectionTitle title="In future I will have build" titleNo="03" />
+      <SectionTitle title="Continous Clone Project" titleNo="03" />
       <div
         className="mt-10
       "
