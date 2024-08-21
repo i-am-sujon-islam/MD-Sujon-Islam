@@ -1,5 +1,6 @@
 import Amazon from "../assets/images/Amazon.png";
 import DoiniIttefa from "../assets/images/doinikIttefa.png";
+import Dpi from "../assets/images/dpi.png";
 import Train from "../assets/images/train.jpg";
 import Container from "./Container";
 import ProjectsLinks from "./ProjectsLinks";
@@ -7,6 +8,16 @@ import SectionTitle from "./SectionTitle";
 const Project = () => {
   return (
     <Container id="project">
+      <SectionTitle title="I have build these" titleNo="03" />
+      <div className="overflow-hidden">
+        <a href="https://a-simple-project-dpi.vercel.app/">
+          <img
+            className="hover:scale-110 duration-300"
+            src={Dpi}
+            alt="DPI Website"
+          />
+        </a>
+      </div>
       <SectionTitle title="In future I will have build" titleNo="03" />
       <div
         className="mt-10
