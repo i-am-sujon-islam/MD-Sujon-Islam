@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-20 shadow-lg shadow-designColor/10 px-4 sticky top-0 bg-primaryColor z-50 opacity-85 hover:opacity-100 duration-300">
+    <div className="h-20 shadow-lg shadow-designColor/10 px-4 sticky top-0 bg-gradient-to-r from-primaryColor to-purple-900 hover:bg-gradient-to-l z-50 opacity-85 hover:opacity-100 duration-300">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between h-full">
         <img
           src={logo}
@@ -58,7 +58,7 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            href="../../public/Sujon(CV).pdf"
+            href="Sujon(CV).pdf"
             target="blank"
             className="px-4 py-2 text-designColor text-[13px] tranking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
           >
@@ -122,7 +122,7 @@ const Header = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.5 }}
-                  href="#"
+                  href="Sujon(CV).pdf"
                   target="blank"
                   className="px-4 py-2 text-designColor text-[13px] tranking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
                 >
