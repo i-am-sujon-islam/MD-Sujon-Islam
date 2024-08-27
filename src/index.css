@@ -5,3 +5,8 @@
 .scrollBarHide::-webkit-scrollbar {
   display: none;
 }
+
+.bg-banner {
+  background: radial-gradient(#1d2a352c 10%, rgba(128, 0, 128, 0.2), #1d2a3529);
+  transition: all 1s;
+}

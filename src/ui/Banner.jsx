@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <Container
       id="home"
-      className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-4 text-center"
+      className="bg-banner py-10 md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-4 text-center"
     >
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
@@ -53,9 +53,9 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 font-semibold text-sm border border-designColor rounded-md text-designColor tracking-wide hover:bg-hoverColor duration-300 flex items-center justify-center
+        className="w-52 h-14 mx-auto font-semibold text-sm border border-designColor rounded-md text-designColor tracking-wide hover:bg-hoverColor duration-300 flex items-center justify-center
        "
-        href="#"
+        href="#project"
       >
         Check out my Project
       </motion.a>
