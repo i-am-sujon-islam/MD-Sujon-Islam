@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <Container
       id="home"
-      className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-4"
+      className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-4 text-center"
     >
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
@@ -37,7 +37,7 @@ const Banner = () => {
           />
         </span>
       </motion.h1>
-      <p className="lg:w-[60%]">
+      <p className="lg:w-[60%] mx-auto">
         I am a web developer with 2+ years of experience in React. I have a
         strong foundation in front-end & back-end development and I am skilled
         creatin user-friendly and responsive web applicitions using React and

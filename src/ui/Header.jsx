@@ -77,7 +77,7 @@ const Header = () => {
           <div
             ref={(node) => (ref.current = node)}
             onClick={handleClick}
-            className="absolute md:hidden top-0 right-0 w-full h-screen bg-black/50 flex flex-col items-end z-50"
+            className="absolute md:hidden top-0 right-0 w-full h-screen bg-black/80 flex flex-col items-end z-50"
           >
             <motion.div
               initial={{ x: 20, opacity: 0 }}
