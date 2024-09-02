@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <Container id="project">
       <SectionTitle title="I have build these" titleNo="03" />
-      <div className=" mb-3 grid grid-cols-1 lg:grid-cols-2 gap-3">
+      <div className=" mb-3 ">
         <div className="flex flex-col lg:flex-row gap-6 py-8 my-16">
           <a
             href="https://a-simple-project-dpi.vercel.app/"
@@ -27,7 +27,18 @@ const Project = () => {
             <div>
               <h3 className="text-2xl font-bold">DPI Clone </h3>
             </div>
-
+            <div>
+              <p className="text-designColor text-sm tracking-wide">
+                Build Project
+              </p>
+              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+            </div>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16">
+              An Amazon clone website for visualizing personalized Amazon
+              website. View your products, Add your account with{" "}
+              <span className="text-green-500">O-auth</span> and then make the
+              purchage using <span className="text-designColor">stripe</span>
+            </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkColor">
               <li>ReactJs</li>
               <li>JavaScript</li>
@@ -37,7 +48,7 @@ const Project = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-6 py-8 my-16">
+        <div className="flex flex-col  lg:flex-row-reverse gap-6 py-8 my-16">
           <a
             href="https://her-power-project.vercel.app/"
             className="w-full lg:w-1/2 h-auto relative group  rounded-lg overflow-hidden"
@@ -45,7 +56,7 @@ const Project = () => {
             <img
               src="herpower.png"
               alt="Amazon"
-              className="w-full h-64 object-cover group-hover:scale-105 duration-200"
+              className="w-full h-72 object-cover group-hover:scale-105 duration-200"
             />
             <div className="absolute w-full h-full bg-designColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300" />
           </a>
@@ -54,7 +65,20 @@ const Project = () => {
             <div>
               <h3 className="text-2xl font-bold">Her Power Project Clone </h3>
             </div>
-
+            <div>
+              <p className="text-designColor text-sm tracking-wide">
+                Build Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                Her Power Project Clone 2.0
+              </h3>
+            </div>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16">
+              Her Power Project clone website for visualizing personalized Her
+              Power Project website. View your products, Add your account with{" "}
+              <span className="text-green-500">O-auth</span> and then make the
+              purchage using <span className="text-designColor">stripe</span>
+            </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkColor">
               <li>ReactJs</li>
               <li>JavaScript</li>
@@ -72,7 +96,7 @@ const Project = () => {
             <img
               src="peoplentech.png"
               alt="Amazon"
-              className="w-full h-64 object-cover group-hover:scale-105 duration-200"
+              className="w-full h-72 object-top group-hover:scale-105 duration-200"
             />
             <div className="absolute w-full h-full bg-designColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300" />
           </a>
@@ -81,7 +105,18 @@ const Project = () => {
             <div>
               <h3 className="text-2xl font-bold">PeopleNTech Clone </h3>
             </div>
-
+            <div>
+              <p className="text-designColor text-sm tracking-wide">
+                Build Project
+              </p>
+              <h3 className="text-2xl font-bold">PeopleNTech Clone 2.0</h3>
+            </div>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16">
+              PeopleNTech clone website for visualizing personalized PeopleNTech
+              website. View your products, Add your account with{" "}
+              <span className="text-green-500">O-auth</span> and then make the
+              purchage using <span className="text-designColor">stripe</span>
+            </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkColor">
               <li>ReactJs</li>
               <li>JavaScript</li>
