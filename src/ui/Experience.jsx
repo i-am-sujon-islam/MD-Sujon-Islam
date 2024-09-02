@@ -52,7 +52,7 @@ const Experience = () => {
     >
       <SectionTitle title="Where I have worked" titleNo="02." />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col cursor-pointer">
+        <ul className="md:w-32 flex flex-col gap-3 cursor-pointer">
           <li
             onClick={handleReactBD}
             className={`${

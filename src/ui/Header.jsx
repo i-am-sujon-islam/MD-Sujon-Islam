@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-20 shadow-lg shadow-designColor/10 px-4 sticky top-0 bg-gradient-to-r from-primaryColor to-purple-900 hover:bg-gradient-to-l z-50 opacity-85 hover:opacity-100 duration-300">
+    <div className="h-20 shadow-lg shadow-designColor/10 px-4 sticky top-0 bg-gradient-to-r from-primaryColor to-purple-900 hover:bg-gradient-to-l z-50  duration-300">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between h-full">
         <img
           src={logo}
