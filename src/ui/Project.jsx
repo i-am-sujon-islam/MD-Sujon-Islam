@@ -64,6 +64,33 @@ const Project = () => {
             </ul>
           </div>
         </div>
+        <div className="flex flex-col lg:flex-row gap-6 py-8 my-16">
+          <a
+            href="https://clone-people-n-tech.vercel.app/"
+            className="w-full lg:w-1/2 h-auto relative group  rounded-lg overflow-hidden"
+          >
+            <img
+              src="peoplentech.png"
+              alt="Amazon"
+              className="w-full h-64 object-cover group-hover:scale-105 duration-200"
+            />
+            <div className="absolute w-full h-full bg-designColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300" />
+          </a>
+
+          <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right lg:-ml-12 z-10">
+            <div>
+              <h3 className="text-2xl font-bold">PeopleNTech Clone </h3>
+            </div>
+
+            <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkColor">
+              <li>ReactJs</li>
+              <li>JavaScript</li>
+              <li>Next-auth</li>
+              <li>Stripe</li>
+              <li>Vercel Deployment</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <SectionTitle title="Continous Clone Project" titleNo="03" />
       <div
