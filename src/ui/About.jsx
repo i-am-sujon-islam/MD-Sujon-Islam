@@ -62,7 +62,7 @@ const About = () => {
               <img
                 src={Sujon}
                 alt="ProfileImage"
-                className="rounded-lg lg:w-full sm:mx-auto h-96 object-cover"
+                className="rounded-lg lg:w-full sm:mx-auto h-96 object-contain"
               />
               <div className="hidden lg:inline-block absolute w-full h-96 bg-designColor/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300" />
             </div>
