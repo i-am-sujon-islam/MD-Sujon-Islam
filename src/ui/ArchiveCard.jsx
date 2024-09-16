@@ -7,7 +7,7 @@ const ArchiveCard = ({ project }) => {
     <a
       href={project?.link}
       target="blank"
-      className=" hover:-translate-y-4 duration-300 inline-block"
+      className=" hover:-translate-y-4 duration-300 inline-block w-full "
     >
       <div className="w-full h-80 rounded-lg bg-textBg p-7 flex flex-col justify-center gap-6 group">
         <div className="flex justify-between items-center">
