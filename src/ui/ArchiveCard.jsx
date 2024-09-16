@@ -4,7 +4,11 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const ArchiveCard = ({ project }) => {
   return (
-    <a href={project?.link} target="blank">
+    <a
+      href={project?.link}
+      target="blank"
+      className=" hover:-translate-y-4 duration-300 inline-block"
+    >
       <div className="w-full h-80 rounded-lg bg-textBg p-7 flex flex-col justify-center gap-6 group">
         <div className="flex justify-between items-center">
           <FaRegFolder className="text-4xl text-designColor" />

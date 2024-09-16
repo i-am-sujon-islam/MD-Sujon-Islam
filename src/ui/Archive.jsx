@@ -3,8 +3,7 @@ import { useRef, useState } from "react";
 import { projectArray } from "../constant";
 import ArchiveCard from "./ArchiveCard";
 import Container from "./Container";
-const 
-Archive = () => {
+const Archive = () => {
   const [showMore, setShowMore] = useState(false);
   const displayedArray = showMore ? projectArray : projectArray.slice(0, 6);
   const projectContainerRef = useRef(null);
@@ -27,9 +26,9 @@ Archive = () => {
       </div>
       <div
         ref={projectContainerRef}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:px-10"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 lg:px-10 "
       >
-        <AnimatePresence>
+        <AnimatePresence >
           {displayedArray?.map((project, index) => (
             <motion.div
               key={index}

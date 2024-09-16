@@ -13,6 +13,7 @@ const WorkCard = ({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1 }}
+      className="hover:translate-y-2 duration-300"
     >
       <h3 className="text-xl font-medium flex gap-1">
         {jobTitle}{" "}
