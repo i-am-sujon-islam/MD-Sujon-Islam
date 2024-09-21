@@ -58,7 +58,7 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            href="Sujon(CV).pdf"
+            href="Sujon(lp.cv).pdf"
             target="blank"
             className="px-4 py-2 text-designColor text-[13px] tranking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
           >
@@ -122,7 +122,7 @@ const Header = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.5 }}
-                  href="Sujon(CV).pdf"
+                  href="Sujon(lp.cv).pdf"
                   target="blank"
                   className="px-4 py-2 text-designColor text-[13px] tranking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
                 >
